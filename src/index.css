@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn__align {
+    color: #ffffff;
+    background-color: #498eff;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  .operation__increment {
+    position: relative;
+    top: 115px;
+    left: 50px;
+  }
+}
